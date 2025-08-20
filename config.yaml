@@ -1,0 +1,10 @@
+listen: :443
+protocol: udp
+cert: /etc/hysteria/cert.pem
+key: /etc/hysteria/key.pem
+auth:
+  type: password
+  password: "MySecretPass"
+bandwidth:
+  up: 50 mbps
+  down: 200 mbps
